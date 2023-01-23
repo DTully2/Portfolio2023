@@ -1,4 +1,4 @@
-@font-face{
+/* @font-face{
     font-family:montserrat_blackregular;
     font-style:normal;
     font-weight:400;
@@ -1682,4 +1682,112 @@ svg {
        transform: scale(1);
        animation-timing-function: ease-out;
     }
+ } */
+
+ svg {
+    display: block;
+    height: 40vh;
+    left: Opx;
+    margin: auto;
+    padding: 10%;
  }
+ 
+ .cls-1,
+ .dotclass {
+    fill: #4cfaa3;
+ }
+ 
+ #dot1 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -71ms;
+ }
+ 
+ #dot2 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -142ms;
+ }
+ 
+ #dot3 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -213ms;
+ }
+ 
+ #dot4 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -284ms;
+ }
+ 
+ #dot5 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -355ms;
+ }
+ 
+ #dot6 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -426ms;
+ }
+ 
+ #dot7 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -497ms;
+ }
+ 
+ #dot8 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -568ms;
+ }
+ 
+ #dot9 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -639ms;
+ }
+ 
+ #dot10 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -710ms;
+ }
+ 
+ #dot11 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -781ms;
+ }
+ 
+ #dot12 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -852ms;
+ }
+ 
+ #dot13 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -923ms;
+ }
+ 
+ #dot14 {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    animation-delay: -1000ms;
+ }
+ 
+ @keyframes heartbeat {
+    from {
+       transform: scale(1);
+       transform-origin: center center;
+       animation-timing-function: ease-out;
+    }
+    10% {
+       transform: scale(0.8);
+       animation-timing-function: ease-in;
+    }
+    17% {
+       transform: scale(1.2);
+       animation-timing-function: ease-out;
+    }
+    33% {
+       transform: scale(0.8);
+       animation-timing-function: ease-in;
+    }
+    45% {
+       transform: scale(1);
+       animation-timing-function: ease-out;
+    }
+ }
+
